@@ -1,0 +1,15 @@
+.git
+.venv
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+__pycache__
+**/__pycache__
+*.py[cod]
+.*_cache
+reports/generated
+assets
+tests
+.DS_Store

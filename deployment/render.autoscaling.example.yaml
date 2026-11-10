@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mle-containerized-llm-service
+    runtime: docker
+    plan: pro
+    healthCheckPath: /health
+    scaling:
+      minInstances: 1
+      maxInstances: 3
+      targetCPUPercent: 60
+      targetMemoryPercent: 70
